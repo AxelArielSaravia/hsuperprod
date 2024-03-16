@@ -1,0 +1,5 @@
+Windows amd64:
+GOOS=windows GOARCH=amd64 go build -o outputfile.exe main.go
+
+MacOS amd64:
+GOOS=darwin GOARCH=amd64 go build -o outputfile main.go
